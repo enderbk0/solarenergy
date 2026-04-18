@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOLAR AXIS | Đối tác EnderBK's Labs</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Fluent Background -->
+    <div class="fluent-bg-canvas">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+    </div>
+
+    <!-- Integrated Top Header System -->
+    <header class="main-header">
+        <div class="header-container container">
+            <nav class="islands-wrapper">
+                <div class="nav-island logo-island">
+                    <a href="#" class="logo-main">SOLAR<span>AXIS</span></a>
+                    <span class="x-sign">×</span>
+                    <img src="platformlogo.png" alt="Partner" class="p-logo">
+                </div>
+
+                <div class="nav-island links-island" id="nav-links-mobile">
+                    <ul class="nav-menu">
+                        <li><a href="#home" data-ar="الصفحة الرئيسية">Trang chủ</a></li>
+                        <li><a href="#about" data-ar="عن المشروع">Dự án</a></li>
+                        <li><a href="#hardware" data-ar="المكونات">Linh kiện</a></li>
+                        <li><a href="#participants" data-ar="الفريق">Thành viên</a></li>
+                    </ul>
+                </div>
+
+                <a href="#contact" class="nav-island contact-btn-island" data-ar="اتصل بنا">Liên hệ</a>
+                
+                <!-- Mobile Toggle Island (Custom Animated) -->
+                <div class="nav-island mobile-island" id="mobile-toggle">
+                    <div class="hamburger-box">
+                        <span class="h-line line-1"></span>
+                        <span class="h-line line-2"></span>
+                        <span class="h-line line-3"></span>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="announcement-wrapper">
+                <div class="announcement-pill">
+                    <i class="fas fa-certificate"></i>
+                    <span data-ar="الشريك الرسمي لـ EnderBK's Labs">Website chính thức hợp tác cùng <strong>EnderBK's Labs</strong></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="page-content">
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="container hero-grid">
+                <div class="hero-left fade-in">
+                    <div class="hero-tag" data-ar="ابتكار الطاقة">Năng lượng Sáng tạo</div>
+                    <h1 class="hero-title" data-ar="مستقبل الطاقة الشمسية">Tương lai của <br><span class="text-gradient">Năng lượng Mặt trời</span></h1>
+                    <p class="hero-text" data-ar="نظام تتبع الطاقة الشمسية ثنائي المحور عالي الدقة مع Arduino Uno. تحسين كفاءة الطاقة الخضراء من خلال التكنولوجيا الحديثة.">Hệ thống bám mục tiêu mặt trời trục kép chính xác cao với Arduino Uno. Tối ưu hóa hiệu suất năng lượng xanh thông qua công nghệ hiện đại.</p>
+                    <div class="hero-actions">
+                        <button class="fluent-play-btn">
+                            <div class="play-icon"><i class="fas fa-play"></i></div>
+                            <div class="play-text">
+                                <span class="txt-top" data-ar="شاهد الآن">Xem ngay</span>
+                                <span class="txt-bot" data-ar="فيديو تجريبي">Video Demo</span>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+                <div class="hero-right fade-in">
+                    <div class="video-window">
+                        <div class="window-bar">
+                            <div class="dots"><span></span><span></span><span></span></div>
+                            <div class="title-tab">He_thong_minh_hoa.mp4</div>
+                        </div>
+                        <div class="video-box">
+                            <video autoplay loop muted playsinline class="video-main">
+                                <source src="preview-video.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hardware Components -->
+        <section class="section" id="hardware">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="tag" data-ar="أجزاء النظام">Linh kiện hệ thống</span>
+                    <h2 data-ar="مكونات الأجهزة">Linh kiện phần cứng</h2>
+                    <div class="line-accent"></div>
+                </div>
+                <div class="hardware-grid">
+                    <div class="hw-card reveal">
+                        <div class="hw-icon"><i class="fas fa-microchip"></i></div>
+                        <h3>Arduino Uno R3</h3>
+                        <p data-ar="المعالجة المركزية والتحكم في النظام.">Xử lý dữ liệu trung tâm và điều khiển hệ thống Servo.</p>
+                    </div>
+                    <div class="hw-card reveal">
+                        <div class="hw-icon"><i class="fas fa-sync-alt"></i></div>
+                        <h3>Động cơ Servo</h3>
+                        <p data-ar="التحكم السلس في المحورين الأفقي والعمودي.">Điều khiển chuyển động mượt mà cho cả 2 trục quay.</p>
+                    </div>
+                    <div class="hw-card reveal">
+                        <div class="hw-icon"><i class="fas fa-lightbulb"></i></div>
+                        <h3>Cảm biến LDR</h3>
+                        <p data-ar="قياس شدة الضوء في البيئة المحيطة.">4 cảm biến quang trở đo cường độ ánh sáng môi trường.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Participants Section -->
+        <section class="section" id="participants">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="tag" data-ar="فريقنا">Đội ngũ của chúng tôi</span>
+                    <h2 data-ar="فريق المشروع">Đội ngũ thực hiện</h2>
+                    <div class="line-accent"></div>
+                </div>
+                <div class="participants-grid">
+                    <div class="member-card reveal">
+                        <div class="member-avatar"><i class="fas fa-user-astronaut"></i></div>
+                        <h3>Thành viên 1</h3>
+                        <p class="role" data-ar="المبرمج الرئيسي">Lập trình chính</p>
+                    </div>
+                    <div class="member-card reveal">
+                        <div class="member-avatar"><i class="fas fa-user-ninja"></i></div>
+                        <h3>Thành viên 2</h3>
+                        <p class="role" data-ar="مهندس الأجهزة">Kỹ sư Phần cứng</p>
+                    </div>
+                    <div class="member-card reveal">
+                        <div class="member-avatar"><i class="fas fa-user-tie"></i></div>
+                        <h3>Thành viên 3</h3>
+                        <p class="role" data-ar="مدير المشروع">Quản lý Dự án</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content-wrapper">
+            <div class="footer-box">
+                <div class="footer-brand">
+                    <a href="#" class="logo-main">SOLAR<span>AXIS</span></a>
+                    <p data-ar="شريك رسمي لمختبرات EnderBK">Đối tác chính thức của EnderBK's Labs.</p>
+                </div>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-discord"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-bottom-info">
+                <div class="copyright-row">
+                    <span data-ar="حقوق الطبع والنشر © 2026 EnderBK's Labs™">Copyright &copy; 2026 <strong>EnderBK's Labs&trade;</strong></span>
+                    <span class="sep">|</span>
+                    <span data-ar="حقوق الطبع والنشر © 2026 ABTC">Copyright &copy; 2026 <strong>ABTC</strong></span>
+                </div>
+                <div class="license-row">
+                    <span data-ar="مرخص بموجب GPLv3">Licensed to <strong>GPLv3</strong></span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
